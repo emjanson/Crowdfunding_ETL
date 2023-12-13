@@ -4,7 +4,11 @@
 Code files: ETL_Mini_Project_Starter_Code_EricJanson.ipynb and crowdfunding_db_schema.sql
 Other files: crowdfunding_ERD.png (entity relationship diagram of our "crowdfunding_db" PostgreSQL database)
 
-This repository contains two core files: 1. a single Jupyter Notebook file in which we import two Microsoft Excel files which are subsequently used to create and manipulate four DataFrames for CSV export and use in populating tables in a PostgreSQL database, and 2. a SQL file for establishing the database schema for a PostgreSQL database called crowdfunding_db.
+This repository contains two core files: 
+
+1. a single Jupyter Notebook file in which one can import two Microsoft Excel files that are subsequently used to create and manipulate four separate DataFrames. Those DataFrames are then exported to CSV files for later use in populating tables in a PostgreSQL database.
+
+2. A SQL file for establishing the database schema for a PostgreSQL database (which we call crowdfunding_db). Once the Jupyter Notebook has been executed, the SQL file crowdfunding_db_schema.sql can be executed to establish the tables and relationship information for a PostgreSQL database. After the table schema has been established, one can import all of the data to populate the database tables from the CSV files exported from our Jupyter Notebook code.
 
 Code sourcing statement
 -----------------------
@@ -13,4 +17,4 @@ I did use a natural language description of the desired code's functions entered
 End of code sourcing statement.
 -----------------------
 
-The repository also contains a directory called 'Resources' which contains the Dataframe to exported CSV files used to populate our database tables and the input files used in our Jupyter Notebook to create DataFrames.
+The repository also contains a directory called 'Resources' which contains the Dataframe to exported CSV files which are then used to populate our database tables, and the input files used in our Jupyter Notebook code to create DataFrames for exporting.
