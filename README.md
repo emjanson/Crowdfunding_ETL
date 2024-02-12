@@ -12,9 +12,9 @@ This repository contains two core files:
 
 Code sourcing statement
 -----------------------
-I did use a natural language description of the desired code's functions entered into ChatGPT 3.5 to help with syntax. I did copy pieces of that code in order to be more efficient, but I tailored it to fit all of the desired functions of this particular project. I did not directly copy and paste any of this code from the internet otherwise (e.g., from StackExchange or any other webpage). I did not seek any assistance or use code written by my peers or instructors for this challenge.
+I did use a natural language description of the desired code's functions entered into ChatGPT 3.5 to help with syntax. I did copy pieces of that generated code in order to be more efficient, but I tailored it to fit all of the desired functions of this particular project. I did not directly copy and paste any of this code from the internet otherwise (e.g., from StackExchange or any other webpage). I did not seek any assistance or use code written by my peers or instructors for this challenge.
 
 End of code sourcing statement.
 -----------------------
 
-The repository also contains a directory called 'Resources' which contains the Dataframe to exported CSV files which are then used to populate our database tables, and the input files used in our Jupyter Notebook code to create DataFrames for exporting.
+The repository also contains a directory called 'Resources' which contains the Dataframe to exported CSV files which are then used to populate our database tables, and the input files used in our Jupyter Notebook code to create DataFrames for exporting
